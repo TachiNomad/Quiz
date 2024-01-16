@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Highscores</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Highscores</h1>
+      <ol id="highscores"></ol>
+      <label>Remember the higher the seconds the better.</label>
+      <div class="todos">
+        <form id="todo-form" method="POST">
+          <input type="text" placeholder="initials please" name="todo-text" id="todo-text" />
+        </form>
+        <p>Outcomes: <span id="todo-count">0</span></p>
+        <ul id="todo-list"></ul>
+      </div>
+
+      <a id="back" href="index.html"><button>Go Back</button></a>
+      <button id="clear">Clear Highscores</button>
+    </div>
+
+
+    <script src="./assets/js/scores.js"></script>
+
+  </body>
+</html>

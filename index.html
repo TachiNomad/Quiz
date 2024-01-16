@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button id="start">Start Quiz</button>
+      </div>
+
+
+    <div id="questions">
+      <p span id="questions-count">Question 1: what do companies do not allow you use to code with?</span></p>
+      <ul id="questions-list"></ul>
+          <button class="incorrect" value="q1btn1">monitor</button>
+          <button id="q1btn2" value="q1btn2">frog</button>
+          <button class="incorrect" value="q1btn3">computer</button>
+          <button class="incorrect" value="q1btn4">keyboard</button>
+    </div>
+
+
+
+    <div id="questions2">
+      <p span id="questions-count2">Question 2: Which one is an example of an array?</span></p>
+      <ul id="questions-list2"></ul>
+      <button class="incorrect" value="q2btn1">idk</button>
+      <button class="incorrect" value="q2btn2">var random = apple purple house</button>
+      <button id="q2btn3" value="q2btn3">var todos = ["Learn HTML", "Learn CSS", "Learn JavaScript"]</button>
+      <button class="incorrect" value="q2btn4">id="crab"</button>
+    </div>
+
+
+
+    <div id="questions3">
+      <p span id="questions-count3">Question 3: Which one is not a software for coding?</span></p>
+      <ul id="questions-list3"></ul>
+      <button id="q3btn1" class="incorrect">python</button>
+      <button id="q3btn2" class="incorrect">c++</button>
+      <button id="q3btn3" class="incorrect">java</button>
+      <button id="q3btn4" value="q3btn4">siphonophorae</button>
+    </div>
+
+
+
+    <div id="questions4">
+      <p span id="questions-count4">Question 4: What was not used for this quiz?</span></p>
+      <ul id="questions-list4"></ul>
+      <button id="q4btn1" value="q4btn1">java</button>
+      <button id="q4btn2" class="incorrect">html</button>
+      <button id="q4btn3" class="incorrect">css</button>
+      <button id="q4btn4" class="incorrect">wav</button>
+    </div>
+
+    
+
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+    
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+
+  </body>
+</html>
