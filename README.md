@@ -2,7 +2,7 @@
 
 ## Description
 
-It is a password generator.
+It is a coding quiz.
 
 ## Installation
 
